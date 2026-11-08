@@ -1,13 +1,13 @@
 public class Task5 {
     public static void main(String[] args) {
-        String username="nodarkutateladzee1";
+        String username="Ana";
 
         int raodenoba = 0;
 
                 for (int i = 0; i < username.length(); i++) {
                     char aso = username.charAt(i);
 
-                    if (aso == 'o' || aso == 'a' || aso == 'u' || aso == 'e' || aso == 'i') {
+                    if (aso == 'o' || aso=='O' || aso == 'a' ||aso=='A'|| aso == 'u'||aso=='U' || aso == 'e' ||aso=='E'|| aso == 'i'||aso=='I') {
                         raodenoba++;
                     }
                 }
